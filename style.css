@@ -1,0 +1,69 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Heading */
+h1 {
+    font-size: 2.5rem;
+    color: #60a5fa;
+    margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 1.1rem;
+    color: #94a3b8;
+    margin-bottom: 40px;
+}
+
+/* Pipeline layout */
+.pipeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Each stage box */
+.stage {
+    background-color: #1e293b;
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Arrow between stages */
+.arrow {
+    font-size: 1.5rem;
+    color: #60a5fa;
+}
+
+/* Status text */
+.status {
+    font-size: 1.1rem;
+}
+
+.status strong {
+    color: #22c55e;
+}
